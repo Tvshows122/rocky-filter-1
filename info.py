@@ -49,14 +49,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f07e3213e33b3e3266d9a250ecc58a1342254cab')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'de3a6a370de49290db4eea4d1133dd4c189e6579')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/tvshows122_384')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ABt_v5G6AbQ1Yjhl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+a3mpCoa4n_M0OWY1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+_JMZkD2Rej01NTc1')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
